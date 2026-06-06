@@ -1,4 +1,4 @@
-console.log(API_KEY);
+
 const result = document.getElementById("result");
 const cityInput = document.getElementById("cityInput");
 const searchBtn = document.getElementById("searchBtn");
@@ -37,3 +37,8 @@ function getWeather() {
 }
 
 searchBtn.addEventListener("click", getWeather);
+cityInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        getWeather();
+    }
+});
