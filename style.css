@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    font-family: Aerial ,sans-serif;
+    background: linear-gradient(110deg, #007be6, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* main container */
+.app {
+    text-align: center;
+    width: 300px;
+}
+/* title */
+h1 {
+    color: white;
+    margin-bottom: 12px;
+}
+
+/* input + button box */
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+/* input */
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* button */
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #0077ff;
+    color: white;
+    cursor: pointer;
+}
+/* button hover */
+button:hover {
+    background: #005fd1;
+}
+/* result card */
+.card {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    text-align: left;
+}
