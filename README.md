@@ -56,6 +56,3 @@ A simple weather application built using HTML, CSS, and JavaScript. The app allo
 * Better weather icons
 * Responsive mobile design
 
-## Author
-
-Darpan
